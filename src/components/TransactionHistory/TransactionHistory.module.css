@@ -1,14 +1,13 @@
-
 table, th, td {
     border: 1px solid rgb(127, 141, 155);
 }
-table {
+.transactionHistory{
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     border-collapse: collapse;
     color: #616568;
     font-size: 16px;
     text-align: center;
-  }
+}
   caption {
     padding: 14px;
     color: white;
