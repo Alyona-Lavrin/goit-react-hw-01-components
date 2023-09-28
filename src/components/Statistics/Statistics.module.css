@@ -1,0 +1,37 @@
+.statistics {
+    margin: 100px 0;
+    background-color: #eef3f6;
+    text-align: center;
+    padding: 100px;
+}
+.title {
+    line-height: 100px;
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 400px;
+    background-color: white;
+    margin: auto;
+}
+
+.statList {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    width: 400px;
+    font-size: 25px;
+    margin: auto;
+}
+
+.statList .item {
+    width: calc(100% / 5);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.statList .item .label {
+    margin-bottom: 10px;
+}
