@@ -2,24 +2,24 @@ import css from "./Statistics.module.css"
 
 const Statistics = props => (
 <section className={css.statistics}>
-  <h2 class="title">Upload stats</h2>
+  <h2 className={css.title}>{props.title}</h2>
 
-  <ul class="stat-list">
-    <li class="item">
-      <span class="label">.docx</span>
-      <span class="percentage">4%</span>
+  <ul className={css.statList}>
+    <li className={css.item}>
+      <span className={css.label}>{props.stats[0].label}</span>
+      <span className={css.percentage}>{props.stats[0].percentage}%</span>
     </li>
-    <li class="item">
-      <span class="label">.mp3</span>
-      <span class="percentage">14%</span>
+    <li className={css.item}>
+      <span className={css.label}>{props.stats[1].label}</span>
+      <span className={css.percentage}>{props.stats[1].percentage}%</span>
     </li>
-    <li class="item">
-      <span class="label">.pdf</span>
-      <span class="percentage">41%</span>
+    <li className={css.item}>
+      <span className={css.label}>{props.stats[2].label}</span>
+      <span className={css.percentage}>{props.stats[2].percentage}%</span>
     </li>
-    <li class="item">
-      <span class="label">.mp4</span>
-      <span class="percentage">12%</span>
+    <li className={css.item}>
+      <span className={css.label}>{props.stats[3].label}</span>
+      <span className={css.percentage}>{props.stats[3].percentage}%</span>
     </li>
   </ul>
 </section>
