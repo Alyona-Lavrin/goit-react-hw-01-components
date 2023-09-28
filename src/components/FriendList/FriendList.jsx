@@ -1,4 +1,3 @@
-// import css from './FriendList.module.css'
 import React from 'react'
 import FriendListItem from './FriendListItem/FriendListItem'
 

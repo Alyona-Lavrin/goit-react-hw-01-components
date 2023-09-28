@@ -1,14 +1,12 @@
 .item {
     border: 1px solid lightgray;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     padding: 10px;
     min-width: 300px;
     margin-bottom: 20px;
 
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
 }
 
@@ -31,7 +29,6 @@
     display: inline-block;
     margin-right: 15px;
 }
-
 
 .avatar {
     width: 80px;

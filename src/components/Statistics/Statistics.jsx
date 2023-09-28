@@ -9,14 +9,12 @@ const Statistics = props => (
     <h2 className={css.title}>{props.title}</h2>
 
     <ul className={css.statList}>
-      {props.stats.map((item, index) => {
-        return (
-          <li key={index} className={css.item} style={{'backgroundColor': "#" + getRundomColor()}}>
-            <span className={css.label}>{item.label}</span>
-            <span className={css.percentage}>{item.percentage}%</span>
-          </li>
-        )
-      })}
+      {props.stats.map((item, index) => (
+        <li key={index} className={css.item} style={{'backgroundColor': "#" + getRundomColor()}}>
+          <span className={css.label}>{item.label}</span>
+          <span className={css.percentage}>{item.percentage}%</span>
+        </li>
+      ))}
     </ul>
   </section>
 );

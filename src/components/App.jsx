@@ -31,7 +31,7 @@ export const App = () => {
         stats={data}
       />
 
-      <FriendList 
+      <FriendList
         friends={friends}
       />
     </div>
