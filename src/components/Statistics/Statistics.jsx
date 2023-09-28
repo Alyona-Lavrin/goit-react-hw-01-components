@@ -11,7 +11,7 @@ const Statistics = props => (
     <ul className={css.statList}>
       {props.stats.map((item, index) => {
         return (
-          <li className={css.item} style={{'backgroundColor': "#" + getRundomColor()}}>
+          <li key={index} className={css.item} style={{'backgroundColor': "#" + getRundomColor()}}>
             <span className={css.label}>{item.label}</span>
             <span className={css.percentage}>{item.percentage}%</span>
           </li>
